@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<Resource name="jdbc/r1" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="100" maxWait="10000"
+               username="postgres" password="postgres" driverClassName="org.postgresql.Driver"
+               url="jdbc:postgresql://urlservidor:puerto/r"/>
+    <Resource name="jdbc/rdb" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="postgres" password="postgres" driverClassName="org.postgresql.Driver"
+               url="jdbc:postgresql://urlservidor:puerto/r"/>
+</Context>

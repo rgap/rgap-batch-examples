@@ -1,0 +1,7 @@
+@echo off
+SETLOCAL ENABLEEXTENSIONS
+
+ECHO Hello World!
+
+ENDLOCAL
+EXIT /B 0
